@@ -1,0 +1,291 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Page layout styles */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f5f5f5;
+  }
+  
+  header {
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav li {
+    margin-right: 1rem;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  .artist-info {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .artist-info h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .artist-info img {
+    max-width: 400px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  
+  .artist-albums {
+    margin-bottom: 2rem;
+  }
+  
+  .artist-albums h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .artist-albums ul {
+    list-style: none;
+  }
+  
+  .artist-albums li {
+    margin-bottom: 1rem;
+  }
+  
+  .artist-albums a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .artist-albums p {
+    color: #666;
+    font-size: 0.8rem;
+  }
+    
+  footer {
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  /* Set font and color styles */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #fff;
+}
+
+/* Style the main content section */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+section {
+  margin-bottom: 1em;
+}
+
+h2 {
+  color: #010c13;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  display: block;
+  width: 100%;
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+  margin-bottom: 1em;
+}
+
+input[type="submit"] {
+  background-color: black;
+  color: #fff;
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: grey;
+}
+
+address {
+  font-style: normal;
+  line-height: 1.5em;
+}
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300);
+
+/*Ignore me, I'm just page styling*/
+html {font-family: 'Roboto', sans-serif;font-size:16px;line-height:1em;height:100%;}
+body {
+  background: #ffffff;
+  background: -moz-linear-gradient(-45deg, #ffffff 0%, #ffffff 50%, #F2F2F2 50%, #F2F2F2 50%, #F2F2F2 100%);
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#ffffff), color-stop(50%,#ffffff), color-stop(50%,#F2F2F2), color-stop(50%,#F2F2F2), color-stop(100%,#F2F2F2));
+  background: -webkit-linear-gradient(-45deg, #ffffff 0%,#ffffff 50%,#F2F2F2 50%,#F2F2F2 50%,#F2F2F2 100%);
+  background: -o-linear-gradient(-45deg, #ffffff 0%,#ffffff 50%,#F2F2F2 50%,#F2F2F2 50%,#F2F2F2 100%);
+  background: -ms-linear-gradient(-45deg, #ffffff 0%,#ffffff 50%,#F2F2F2 50%,#F2F2F2 50%,#F2F2F2 100%);
+  background: linear-gradient(135deg, #ffffff 0%,#ffffff 50%,#F2F2F2 50%,#F2F2F2 50%,#F2F2F2 100%);
+}
+
+h1 {font-size:1.5em;margin-bottom:55px;}
+
+#social-platforms {
+  position:relative;
+  top:100px;
+  top:25vh;
+  font-size:1rem;
+  text-align:center;
+  height:250px;
+  overflow:hidden;
+}
+
+/*Pen code from this point on*/
+.btn {
+  clear:both;
+  white-space:nowrap;
+  font-size:.8em;
+  display:inline-block;
+  border-radius:5px;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.35);
+  margin:2px;
+  -webkit-transition:all .5s;
+  -moz-transition:all .5s;
+  transition:all .5s;
+  overflow:hidden
+}
+
+.btn:hover {
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.45);
+}
+
+.btn:focus {
+  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.4);
+}
+
+.btn > span,.btn-icon > i {
+  float:left;
+  padding:13px;
+  -webkit-transition:all .5s;
+  -moz-transition:all .5s;
+  transition:all .5s;
+  line-height:1em
+}
+
+.btn > span {
+  padding:14px 18px 16px;
+  white-space:nowrap;
+  color:#FFF;
+  background:#b8b8b8
+}
+
+.btn:focus > span {
+  background:#9a9a9a
+}
+
+.btn-icon > i {
+  border-radius:5px 0 0 5px;
+  position:relative;
+  width:13px;
+  text-align:center;
+  font-size:1.25em;
+  color:#fff;
+  background:#212121
+}
+
+.btn-icon > i:after {
+  content:"";
+  border:8px solid;
+  border-color:transparent transparent transparent #222;
+  position:absolute;
+  top:13px;
+  right:-15px
+}
+
+.btn-icon:hover > i,.btn-icon:focus > i {
+  color:#FFF
+}
+
+.btn-icon > span {
+  border-radius:0 5px 5px 0
+}
+
+/*Facebook*/
+.btn-facebook:hover > i,.btn-facebook:focus > i {
+  color:#3b5998
+}
+
+.btn-facebook > span {
+  background:#3b5998
+}
+
+/*Twitter*/
+.btn-twitter:hover > i,.btn-twitter:focus > i {
+  color:#55acee
+}
+
+.btn-twitter > span {
+  background:#55acee
+}
+
+/* Youtube */
+.btn-youtube:hover > i,.btn-youtube:focus > i {
+  color:white
+}
+
+.btn-youtube > span {
+  background:red
+}
+
+/*Instagram*/
+.btn-instagram:hover > i,.btn-instagram:focus > i {
+  color:brown
+}
+
+.btn-instagram > span {
+  background:burlywood
+}
+
+/*LinkedIn*/
+/* .btn-linkedin:hover > i,.btn-linkedin:focus > i {
+  color:#007bb6
+}
+
+.btn-linkedin > span {
+  background:#007bb6
+} */
+
